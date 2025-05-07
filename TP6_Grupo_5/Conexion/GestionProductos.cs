@@ -32,7 +32,7 @@ namespace TP6_Grupo_5.Conexion
 
         public DataTable ObtenerTodosLosLibros()
         {
-            return ObtenerTabla("Productos", "SELECT IdProducto AS [Id Producto], NombreProducto AS [Nombre Producto], CantidadPorUnidad AS [Cantidad Por Unidad], PrecioUnidad AS [Precio Unidad] FROM Productos");
+            return ObtenerTabla("Productos", "SELECT IdProducto, NombreProducto, CantidadPorUnidad, PrecioUnidad FROM Productos");
         }
     }
 }

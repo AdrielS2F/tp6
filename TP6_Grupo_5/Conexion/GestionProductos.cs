@@ -34,5 +34,28 @@ namespace TP6_Grupo_5.Conexion
         {
             return ObtenerTabla("Productos", "SELECT IdProducto, NombreProducto, CantidadPorUnidad, PrecioUnidad FROM Productos");
         }
+
+        private void ArmarParametrosLibrosEliminar(ref SqlCommand Comando, Libro libro)
+        {
+            SqlParameter sqlParameter = new SqlParameter();
+            sqlParameter = Comando.Parameters.Add("@IdLibro", SqlDbType.Int);
+            sqlParameter.Value = libro.IdLibro;
+        }
+
+        public bool EliminarLibro(Libro libro)
+        {
+            SqlCommand sqlCommand = new SqlCommand();
+            ArmarParametrosLibrosEliminar(ref sqlCommand, libro);
+            AccesoDatos accesoDatos = new AccesoDatos();
+            int FilasInsertadas = accesoDatos.EjecutarProcedimientoAlmacenado(sqlCommand, "spEliminarLibro");
+            if (FilasInsertadas == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

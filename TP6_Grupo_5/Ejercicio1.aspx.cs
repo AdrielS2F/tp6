@@ -25,5 +25,14 @@ namespace TP6_Grupo_5
             gvProductos.DataSource = gestionProductos.ObtenerTodosLosLibros(); /// DATA TABLE
             gvProductos.DataBind();
         }
+        protected void gvProductos_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+            string idLibro = ((Label)gvProductos.Rows[e.RowIndex].FindControl("lbl_it_IdProducto")).Text;
+            Libro libro = new Libro(Convert.ToInt32(idLibro));
+            GestionProductos gestionProductos = new GestionProductos();
+            gestionProductos.EliminarLibro(libro);
+
+            CargarGridView();
+        }
     }
 }

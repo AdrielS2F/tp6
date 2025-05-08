@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -43,6 +44,19 @@ namespace TP6_Grupo_5.Conexion
             {
                 return null;
             }
+        }
+
+        public int EjecutarProcedimientoAlmacenado(SqlCommand comandoSQL, string nombreProcedimiento)
+        {
+            int FilasCambiadas;
+            SqlConnection Conexion = ObtenerConexion();
+            SqlCommand sqlCommand = new SqlCommand();
+            sqlCommand = comandoSQL;
+            sqlCommand.Connection = Conexion;
+            sqlCommand.CommandType = CommandType.StoredProcedure;
+            sqlCommand.CommandText = nombreProcedimiento;
+            FilasCambiadas = sqlCommand.ExecuteNonQuery();
+            return FilasCambiadas;
         }
     }
 }

@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\tp6\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\tp6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\conexion\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\conexion\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\user\\source\\repos\\tp6\\tp6_grupo_5\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\Admin\\Desktop\\tp6\\tp6_grupo_5\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\admin\\desktop\\tp6\\tp6_grupo_5\\conexion\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\conexion\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\admin\\desktop\\tp6\\tp6_grupo_5\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\Admin\\Desktop\\tp6\\tp6_grupo_5\\conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\admin\\desktop\\tp6\\tp6_grupo_5\\conexion\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\conexion\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,92 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Conexion\\Libro.cs",
+              "RelativeDocumentMoniker": "TP6_Grupo_5\\Conexion\\Libro.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Conexion\\Libro.cs",
+              "RelativeToolTip": "TP6_Grupo_5\\Conexion\\Libro.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:35:24.378Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GestionProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Conexion\\GestionProductos.cs",
+              "RelativeDocumentMoniker": "TP6_Grupo_5\\Conexion\\GestionProductos.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Conexion\\GestionProductos.cs",
+              "RelativeToolTip": "TP6_Grupo_5\\Conexion\\GestionProductos.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:44:00.044Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
               "RelativeToolTip": "TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAArwDAAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T17:34:48.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionProductos.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\GestionProductos.cs",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\Conexion\\GestionProductos.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\GestionProductos.cs",
-              "RelativeToolTip": "TP6_Grupo_5\\Conexion\\GestionProductos.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T17:24:43.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Inicio.aspx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Inicio.aspx",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\Inicio.aspx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Inicio.aspx",
-              "RelativeToolTip": "TP6_Grupo_5\\Inicio.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-05T19:00:42.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Ejercicio1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx.cs",
               "RelativeDocumentMoniker": "TP6_Grupo_5\\Ejercicio1.aspx.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx.cs",
               "RelativeToolTip": "TP6_Grupo_5\\Ejercicio1.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T16:43:09.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ejercicio1.aspx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx",
               "RelativeDocumentMoniker": "TP6_Grupo_5\\Ejercicio1.aspx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx",
               "RelativeToolTip": "TP6_Grupo_5\\Ejercicio1.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-05-05T19:08:45.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ejercicio2.aspx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio2.aspx",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\Ejercicio2.aspx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio2.aspx",
-              "RelativeToolTip": "TP6_Grupo_5\\Ejercicio2.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-05T19:09:01.519Z",
               "EditorCaption": ""
             }
           ]

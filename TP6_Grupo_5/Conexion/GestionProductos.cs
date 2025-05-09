@@ -7,9 +7,6 @@ using System.Web;
 
 namespace TP6_Grupo_5.Conexion
 {
-    /// PROPIEDADES
-
-    /// CONSTRUCTORES
     public class GestionProductos
     {
         /// PROPIEDADES
@@ -49,6 +46,29 @@ namespace TP6_Grupo_5.Conexion
             AccesoDatos accesoDatos = new AccesoDatos();
             int FilasInsertadas = accesoDatos.EjecutarProcedimientoAlmacenado(sqlCommand, "spEliminarLibro");
             if (FilasInsertadas == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool ActualizarProducto(string consultaSQL)
+        {
+            // Establecemos la conexion a la base de datos en SQL Server
+            AccesoDatos accesoDatos = new AccesoDatos();
+            SqlConnection connection = accesoDatos.ObtenerConexion();
+
+            // Realizamos la consulta
+            SqlCommand sqlCommand = new SqlCommand(consultaSQL, connection);
+            int filasAfectadas = sqlCommand.ExecuteNonQuery();
+
+            // Cerramos la conexion
+            connection.Close();
+
+            if (filasAfectadas == 1)
             {
                 return true;
             }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -32,6 +33,34 @@ namespace TP6_Grupo_5
             GestionProductos gestionProductos = new GestionProductos();
             gestionProductos.EliminarLibro(libro);
 
+            CargarGridView();
+        }
+
+        protected void gvProductos_RowEditing(object sender, GridViewEditEventArgs e)
+        {
+            gvProductos.EditIndex = e.NewEditIndex;
+            CargarGridView();
+        }
+
+        protected void gvProductos_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
+        {
+            gvProductos.EditIndex = -1;
+            CargarGridView();
+        }
+
+        protected void gvProductos_RowUpdating(object sender, GridViewUpdateEventArgs e)
+        {
+            /// BUSCAR FILA DENTRO DEL EDIT ITEM TEMPLATE
+            string idProducto = ((Label)gvProductos.Rows[e.RowIndex].FindControl("Lbl_eit_idProducto")).Text;
+            string nombreProducto = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_nombreProducto")).Text;
+            string cantidadPorUnidad = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_cantidadPorUnidad")).Text;
+            string precioUnitario = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_precioUnidad")).Text;
+
+            // ACTUALIZAR PRODUCTO
+            string consultaSQLUpdate = "UPDATE Productos SET NombreProducto = '" + nombreProducto + "', CantidadPorUnidad = '" + cantidadPorUnidad + "', PrecioUnidad = " + precioUnitario + " WHERE IdProducto = " + idProducto;
+            GestionProductos gestionProductos = new GestionProductos();
+            gestionProductos.ActualizarProducto(consultaSQLUpdate);
+            gvProductos.EditIndex = -1;
             CargarGridView();
         }
     }

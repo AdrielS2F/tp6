@@ -35,7 +35,7 @@ namespace TP6_Grupo_5
 
             CargarGridView();
         }
-
+        // ELIMINAR FILA
         protected void gvProductos_RowEditing(object sender, GridViewEditEventArgs e)
         {
             gvProductos.EditIndex = e.NewEditIndex;
@@ -47,20 +47,36 @@ namespace TP6_Grupo_5
             gvProductos.EditIndex = -1;
             CargarGridView();
         }
-
+        // ACTUALIZAR FILA
         protected void gvProductos_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
-            /// BUSCAR FILA DENTRO DEL EDIT ITEM TEMPLATE
+            // BUSCAR FILA DENTRO DEL EDIT ITEM TEMPLATE
             string idProducto = ((Label)gvProductos.Rows[e.RowIndex].FindControl("Lbl_eit_idProducto")).Text;
             string nombreProducto = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_nombreProducto")).Text;
             string cantidadPorUnidad = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_cantidadPorUnidad")).Text;
             string precioUnitario = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_precioUnidad")).Text;
 
-            // ACTUALIZAR PRODUCTO
-            string consultaSQLUpdate = "UPDATE Productos SET NombreProducto = '" + nombreProducto + "', CantidadPorUnidad = '" + cantidadPorUnidad + "', PrecioUnidad = " + precioUnitario + " WHERE IdProducto = " + idProducto;
+            // CAMBIAR EL PRECIO CAMBIANDO LA COMA POR PUNTO
+            string precioUnitarioFormateado = precioUnitario.Replace(',', '.');
+
+            // ARMAR CONSULTA SQL CORREGIDA
+            string consultaSQLUpdate = "UPDATE Productos SET NombreProducto = '" + nombreProducto +
+                                       "', CantidadPorUnidad = '" + cantidadPorUnidad +
+                                       "', PrecioUnidad = " + precioUnitarioFormateado +
+                                       " WHERE IdProducto = " + idProducto;
+
+            // EJECUTAR CONSULTA
             GestionProductos gestionProductos = new GestionProductos();
             gestionProductos.ActualizarProducto(consultaSQLUpdate);
+
             gvProductos.EditIndex = -1;
+            CargarGridView();
+        }
+
+        // PAGINACION
+        protected void gvProductos_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            gvProductos.PageIndex = e.NewPageIndex;
             CargarGridView();
         }
     }

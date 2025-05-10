@@ -23,15 +23,15 @@ namespace TP6_Grupo_5
         private void CargarGridView()
         {
             GestionProductos gestionProductos = new GestionProductos();
-            gvProductos.DataSource = gestionProductos.ObtenerTodosLosLibros(); /// DATA TABLE
+            gvProductos.DataSource = gestionProductos.ObtenerTodosLosProductos(); /// DATA TABLE
             gvProductos.DataBind();
         }
         protected void gvProductos_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
-            string idLibro = ((Label)gvProductos.Rows[e.RowIndex].FindControl("lbl_it_IdProducto")).Text;
-            Libro libro = new Libro(Convert.ToInt32(idLibro));
+            string idProducto = ((Label)gvProductos.Rows[e.RowIndex].FindControl("lbl_it_IdProducto")).Text;
+            Producto producto = new Producto(Convert.ToInt32(idProducto));
             GestionProductos gestionProductos = new GestionProductos();
-            gestionProductos.EliminarLibro(libro);
+            gestionProductos.EliminarProducto(producto);
 
             CargarGridView();
         }

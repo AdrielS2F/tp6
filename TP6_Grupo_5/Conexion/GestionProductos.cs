@@ -27,24 +27,24 @@ namespace TP6_Grupo_5.Conexion
             return dataSet.Tables[nombreTabla];
         }
 
-        public DataTable ObtenerTodosLosLibros()
+        public DataTable ObtenerTodosLosProductos()
         {
             return ObtenerTabla("Productos", "SELECT IdProducto, NombreProducto, CantidadPorUnidad, PrecioUnidad FROM Productos");
         }
 
-        private void ArmarParametrosLibrosEliminar(ref SqlCommand Comando, Libro libro)
+        private void ArmarParametrosProductosEliminar(ref SqlCommand Comando, Producto producto)
         {
             SqlParameter sqlParameter = new SqlParameter();
-            sqlParameter = Comando.Parameters.Add("@IdLibro", SqlDbType.Int);
-            sqlParameter.Value = libro.IdLibro;
+            sqlParameter = Comando.Parameters.Add("@IdProducto", SqlDbType.Int);
+            sqlParameter.Value = producto.idProducto;
         }
 
-        public bool EliminarLibro(Libro libro)
+        public bool EliminarProducto(Producto producto)
         {
             SqlCommand sqlCommand = new SqlCommand();
-            ArmarParametrosLibrosEliminar(ref sqlCommand, libro);
+            ArmarParametrosProductosEliminar(ref sqlCommand, producto);
             AccesoDatos accesoDatos = new AccesoDatos();
-            int FilasInsertadas = accesoDatos.EjecutarProcedimientoAlmacenado(sqlCommand, "spEliminarLibro");
+            int FilasInsertadas = accesoDatos.EjecutarProcedimientoAlmacenado(sqlCommand, "SpEliminarProducto");
             if (FilasInsertadas == 1)
             {
                 return true;

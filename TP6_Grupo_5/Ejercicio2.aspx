@@ -92,7 +92,9 @@
                 <tr>
                     <td class="auto-style11"></td>
                     <td class="auto-style7"></td>
-                    <td class="auto-style8"></td>
+                    <td class="auto-style8">
+                        <asp:HyperLink ID="hlMostrarProductos" runat="server" NavigateUrl="~/MostrarProductos.aspx">Mostrar Productos</asp:HyperLink>
+                    </td>
                     <td class="auto-style9"></td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>
@@ -138,16 +140,16 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style10">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style11"></td>
+                    <td class="auto-style7"></td>
+                    <td class="auto-style8"></td>
+                    <td class="auto-style9"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
+                    <td class="auto-style6"></td>
                 </tr>
                 <tr>
                     <td class="auto-style10">&nbsp;</td>

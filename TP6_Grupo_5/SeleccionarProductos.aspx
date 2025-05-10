@@ -10,23 +10,35 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style5 {
+            width: 2%;
+        }
+        .auto-style8 {
+            width: 232px;
+        }
+        .auto-style9 {
+            width: 52%;
+        }
+        .auto-style10 {
+            width: 9%;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
                 <td colspan="7">
-                    <asp:GridView ID="GVProductos" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnPageIndexChanging="GVProductos_PageIndexChanging" PageSize="14">
+                    <asp:GridView ID="GVProductos" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnPageIndexChanging="GVProductos_PageIndexChanging" PageSize="14" AutoGenerateSelectButton="True">
                         <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                         <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
                         <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
@@ -40,49 +52,53 @@
                 </td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">
+                    <asp:Label ID="LblProductoSeleccionado" runat="server"></asp:Label>
+                </td>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style10">
+                    <asp:HyperLink ID="hlInicio" runat="server" NavigateUrl="~/Inicio.aspx">Volver al inicio</asp:HyperLink>
+                </td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
             </tr>
         </table>
         <div>

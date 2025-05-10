@@ -11,7 +11,7 @@ namespace TP6_Grupo_5
 {
 
 
-    public partial class SeleccionarProductos
+    public partial class MostrarProductos
     {
 
         /// <summary>
@@ -24,22 +24,22 @@ namespace TP6_Grupo_5
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control GVProductos.
+        /// Control lblProductos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GVProductos;
+        protected global::System.Web.UI.WebControls.Label lblProductos;
 
         /// <summary>
-        /// Control LblProductoSeleccionado.
+        /// Control GridView1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblProductoSeleccionado;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
         /// Control hlInicio.

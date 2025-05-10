@@ -11,7 +11,7 @@ namespace TP6_Grupo_5
 {
 
 
-    public partial class Ejercicio2
+    public partial class SeleccionarProductos
     {
 
         /// <summary>
@@ -24,21 +24,12 @@ namespace TP6_Grupo_5
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control LblInicio.
+        /// Control GVProductos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblInicio;
-
-        /// <summary>
-        /// Control HLSeleccionarProd.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HLSeleccionarProd;
+        protected global::System.Web.UI.WebControls.GridView GVProductos;
     }
 }

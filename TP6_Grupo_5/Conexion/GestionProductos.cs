@@ -27,9 +27,10 @@ namespace TP6_Grupo_5.Conexion
             return dataSet.Tables[nombreTabla];
         }
 
-        public DataTable ObtenerTodosLosProductos()
+        // Si no se especifica una consulta, se usa la consulta por defecto del Ejercicio 1.
+        public DataTable ObtenerTodosLosProductos(string consultaSQL = "SELECT IdProducto, NombreProducto, CantidadPorUnidad, PrecioUnidad FROM Productos")
         {
-            return ObtenerTabla("Productos", "SELECT IdProducto, NombreProducto, CantidadPorUnidad, PrecioUnidad FROM Productos");
+            return ObtenerTabla("Productos", consultaSQL);
         }
 
         private void ArmarParametrosProductosEliminar(ref SqlCommand Comando, Producto producto)

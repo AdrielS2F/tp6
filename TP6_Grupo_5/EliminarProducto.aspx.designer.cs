@@ -11,7 +11,7 @@ namespace TP6_Grupo_5
 {
 
 
-    public partial class Ejercicio2
+    public partial class EliminarProducto
     {
 
         /// <summary>
@@ -24,39 +24,21 @@ namespace TP6_Grupo_5
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control LblInicio.
+        /// Control lblProductosSeleccionadosEliminar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblInicio;
+        protected global::System.Web.UI.WebControls.Label lblProductosSeleccionadosEliminar;
 
         /// <summary>
-        /// Control HLSeleccionarProd.
+        /// Control hlinicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HLSeleccionarProd;
-
-        /// <summary>
-        /// Control hlEliminarProductosSL.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlEliminarProductosSL;
-
-        /// <summary>
-        /// Control hlMostrarProductos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlMostrarProductos;
+        protected global::System.Web.UI.WebControls.HyperLink hlinicio;
     }
 }

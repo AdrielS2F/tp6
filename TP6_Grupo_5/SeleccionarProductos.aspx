@@ -104,7 +104,7 @@
                 </td>
                 <td class="auto-style9">&nbsp;</td>
                 <td class="auto-style10">
-                    <asp:HyperLink ID="hlInicio" runat="server" NavigateUrl="~/Inicio.aspx">Volver al inicio</asp:HyperLink>
+                    <asp:HyperLink ID="hlInicio" runat="server" NavigateUrl="~/Ejercicio2.aspx">Volver al inicio</asp:HyperLink>
                 </td>
                 <td class="auto-style5">&nbsp;</td>
                 <td class="auto-style5">&nbsp;</td>

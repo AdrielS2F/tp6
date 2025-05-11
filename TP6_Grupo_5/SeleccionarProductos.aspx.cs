@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TP6_Grupo_5.Conexion;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace TP6_Grupo_5
 {
@@ -15,7 +17,7 @@ namespace TP6_Grupo_5
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page.IsPostBack == false)
+            if (!IsPostBack)
             {
                 CargarGridView();
             }
@@ -29,21 +31,55 @@ namespace TP6_Grupo_5
             GVProductos.DataBind();
         }
 
-        // PAGINACION EN EL GRIDVIEW
         protected void GVProductos_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
             GVProductos.PageIndex = e.NewPageIndex;
             CargarGridView();
         }
 
-        // FUNCION DE SELEECIONAR EN EL GRIDVIEW
-        protected void GVProductos_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        protected void GVProductos_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Declaramos como string el nombre del producto para luego que se pueda encontrar y tomar el valor que esta en el gridview
-            string nombreProducto = ((Label)GVProductos.Rows[e.NewSelectedIndex].FindControl("Lbl_it_nombreProducto")).Text;
+            if (GVProductos.SelectedRow != null)
+            {
+                string idProducto = GVProductos.SelectedRow.Cells[1].Text;
+                string nombreProducto = GVProductos.SelectedRow.Cells[2].Text;
+                string CantidaPorUnidad = GVProductos.SelectedRow.Cells[3].Text;
+                string precioUnidad = GVProductos.SelectedRow.Cells[4].Text;
 
-            // Mostramos que selecciono el usuario mediante un label
-            LblProductoSeleccionado.Text = "Productos agregados: " + nombreProducto;
+                DataTable dtSeleccionados = (DataTable)Session["dtSeleccionados"];
+
+                if (dtSeleccionados == null)
+                {
+                    dtSeleccionados = new DataTable();
+                    dtSeleccionados.Columns.Add("idProducto");
+                    dtSeleccionados.Columns.Add("nombreProducto");
+                    dtSeleccionados.Columns.Add("cantidadPorUnidad");
+                    dtSeleccionados.Columns.Add("precioUnidad");
+                }
+
+                if (!yaExisteSeleccionados(idProducto, dtSeleccionados))
+                {
+                    DataRow nuevaFila = dtSeleccionados.NewRow();
+                    nuevaFila["idProducto"] = idProducto;
+                    nuevaFila["nombreProducto"] = nombreProducto;
+                    nuevaFila["cantidadPorUnidad"] = CantidaPorUnidad;
+                    nuevaFila["precioUnidad"] = precioUnidad;
+
+                    dtSeleccionados.Rows.Add(nuevaFila);
+                    Session["dtSeleccionados"] = dtSeleccionados;
+                }
+            }
+        }
+
+        private bool yaExisteSeleccionados(string idProducto, DataTable dtSeleccionados)
+        {
+            if (dtSeleccionados == null) return false;
+
+            foreach (DataRow row in dtSeleccionados.Rows)
+            {
+                if (row["idProducto"].ToString() == idProducto) return true;
+            }
+            return false;
         }
     }
 }

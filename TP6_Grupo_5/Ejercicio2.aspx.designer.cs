@@ -42,13 +42,13 @@ namespace TP6_Grupo_5
         protected global::System.Web.UI.WebControls.HyperLink HLSeleccionarProd;
 
         /// <summary>
-        /// Control hlEliminarProductosSL.
+        /// Control lbEliminarSeleccionados.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlEliminarProductosSL;
+        protected global::System.Web.UI.WebControls.LinkButton lbEliminarSeleccionados;
 
         /// <summary>
         /// Control hlMostrarProductos.

@@ -13,5 +13,10 @@ namespace TP6_Grupo_5
         {
 
         }
+
+        protected void lbEliminarSeleccionados_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

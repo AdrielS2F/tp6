@@ -22,22 +22,6 @@
         .auto-style10 {
             width: 9%;
         }
-        .auto-style11 {
-            width: 232px;
-            height: 23px;
-        }
-        .auto-style12 {
-            width: 52%;
-            height: 23px;
-        }
-        .auto-style13 {
-            width: 9%;
-            height: 23px;
-        }
-        .auto-style14 {
-            width: 2%;
-            height: 23px;
-        }
     </style>
 </head>
 <body>
@@ -54,29 +38,7 @@
             </tr>
             <tr>
                 <td colspan="7">
-                    <asp:GridView ID="GVProductos" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnPageIndexChanging="GVProductos_PageIndexChanging" PageSize="14" AutoGenerateSelectButton="True" AutoGenerateColumns="False" OnSelectedIndexChanging="GVProductos_SelectedIndexChanging">
-                        <Columns>
-                            <asp:TemplateField HeaderText="Id Producto">
-                                <ItemTemplate>
-                                    <asp:Label ID="Lbl_it_idProducto" runat="server" Text='<%# Bind("IdProducto") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Nombre Producto">
-                                <ItemTemplate>
-                                    <asp:Label ID="Lbl_it_nombreProducto" runat="server" Text='<%# Bind("NombreProducto") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Id Proveedor">
-                                <ItemTemplate>
-                                    <asp:Label ID="Lbl_it_idProveedor" runat="server" Text='<%# Bind("IdProveedor") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:TemplateField HeaderText="Precio Unitario">
-                                <ItemTemplate>
-                                    <asp:Label ID="Lbl_it_precioUnidad" runat="server" Text='<%# Bind("PrecioUnidad") %>'></asp:Label>
-                                </ItemTemplate>
-                            </asp:TemplateField>
-                        </Columns>
+                    <asp:GridView ID="GVProductos" runat="server" AllowPaging="True" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnPageIndexChanging="GVProductos_PageIndexChanging" PageSize="14" AutoGenerateSelectButton="True" OnSelectedIndexChanged="GVProductos_SelectedIndexChanged">
                         <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                         <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
                         <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
@@ -102,9 +64,11 @@
                 <td class="auto-style8">
                     <asp:Label ID="LblProductoSeleccionado" runat="server"></asp:Label>
                 </td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style9">
+                    <asp:HyperLink ID="hlEj2" runat="server" NavigateUrl="~/Ejercicio2.aspx">Ejercicio2</asp:HyperLink>
+                </td>
                 <td class="auto-style10">
-                    <asp:HyperLink ID="hlInicio" runat="server" NavigateUrl="~/Ejercicio2.aspx">Volver al inicio</asp:HyperLink>
+                    <asp:HyperLink ID="hlInicio" runat="server" NavigateUrl="~/Inicio.aspx">Volver al inicio</asp:HyperLink>
                 </td>
                 <td class="auto-style5">&nbsp;</td>
                 <td class="auto-style5">&nbsp;</td>
@@ -112,13 +76,13 @@
                 <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style11"></td>
-                <td class="auto-style12"></td>
-                <td class="auto-style13"></td>
-                <td class="auto-style14"></td>
-                <td class="auto-style14"></td>
-                <td class="auto-style14"></td>
-                <td class="auto-style14"></td>
+                <td class="auto-style8">&nbsp;</td>
+                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style8">&nbsp;</td>

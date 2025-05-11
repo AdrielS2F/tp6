@@ -10,9 +10,6 @@
         .auto-style1 {
             width: 100%;
         }
-        .auto-style2 {
-            height: 23px;
-        }
     </style>
 </head>
 <body>
@@ -58,7 +55,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4">
+                    <asp:GridView ID="gvMostrarSeleccionados" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" AllowPaging="True" OnPageIndexChanging="gvMostrarSeleccionados_PageIndexChanging">
                         <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                         <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
                         <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
@@ -105,18 +102,18 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">
-                    <asp:HyperLink ID="hlInicio" runat="server" NavigateUrl="~/Ejercicio2.aspx">Volver al inicio</asp:HyperLink>
+                <td>
+                    <asp:HyperLink ID="hlInicio" runat="server" NavigateUrl="~/Inicio.aspx">Volver al inicio</asp:HyperLink>
                 </td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>

@@ -93,7 +93,7 @@
                     <td class="auto-style11"></td>
                     <td class="auto-style7"></td>
                     <td class="auto-style8">
-                        <asp:HyperLink ID="hlEliminarProductosSL" runat="server" NavigateUrl="~/MostrarProductos.aspx">Eliminar Productos Seleccionados</asp:HyperLink>
+                        <asp:LinkButton ID="lbEliminarSeleccionados" runat="server" OnClick="lbEliminarSeleccionados_Click">Eliminar Productos Seleccionados</asp:LinkButton>
                     </td>
                     <td class="auto-style9"></td>
                     <td class="auto-style6"></td>
@@ -120,7 +120,7 @@
                 <tr>
                     <td class="auto-style11"></td>
                     <td class="auto-style7"></td>
-                    <td class="auto-style8">&nbsp;</td>
+                    <td class="auto-style8"></td>
                     <td class="auto-style9"></td>
                     <td class="auto-style6"></td>
                     <td class="auto-style6"></td>

@@ -6,16 +6,23 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TP6_Grupo_5.Conexion;
-//¡IMPORTANTE! Para que la función "Eliminar Fila" ande correctamente se debe primero crear el siguiente procedimiento en la base de datos Neptuno:
-//USE Neptuno
-//GO
-//CREATE PROCEDURE SpEliminarProducto
-//(
-//@IdProducto int
-//)
-//AS
-//DELETE FROM Productos
-//WHERE IdProducto=@IdProducto
+/*
+ IMPORTANTE para que funcione eliminar producto agregar a la base ded atos de neptuno:
+
+USE Neptuno
+GO
+
+CREATE PROCEDURE SpEliminarProducto
+(
+@IdProducto int
+)
+AS
+
+DELETE FROM Productos
+WHERE IdProducto=@IdProducto
+ 
+ 
+ */
 
 namespace TP6_Grupo_5
 {
@@ -36,6 +43,7 @@ namespace TP6_Grupo_5
             gvProductos.DataSource = gestionProductos.ObtenerTodosLosProductos(); /// DATA TABLE
             gvProductos.DataBind();
         }
+        // ELIMINAR FILA
         protected void gvProductos_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
             string idProducto = ((Label)gvProductos.Rows[e.RowIndex].FindControl("lbl_it_IdProducto")).Text;
@@ -45,7 +53,6 @@ namespace TP6_Grupo_5
 
             CargarGridView();
         }
-        // ELIMINAR FILA
         protected void gvProductos_RowEditing(object sender, GridViewEditEventArgs e)
         {
             gvProductos.EditIndex = e.NewEditIndex;

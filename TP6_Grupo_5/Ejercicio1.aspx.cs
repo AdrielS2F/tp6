@@ -6,6 +6,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TP6_Grupo_5.Conexion;
+//¡IMPORTANTE! Para que la función "Eliminar Fila" ande correctamente se debe primero crear el siguiente procedimiento en la base de datos Neptuno:
+//USE Neptuno
+//GO
+//CREATE PROCEDURE SpEliminarProducto
+//(
+//@IdProducto int
+//)
+//AS
+//DELETE FROM Productos
+//WHERE IdProducto=@IdProducto
 
 namespace TP6_Grupo_5
 {

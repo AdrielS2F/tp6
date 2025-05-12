@@ -52,6 +52,8 @@ namespace TP6_Grupo_5
             gestionProductos.EliminarProducto(producto);
 
             CargarGridView();
+            lblMensajeNuevo.ForeColor = System.Drawing.Color.Green;
+            lblMensajeNuevo.Text = "Se Elimino Correctamente.";
         }
         protected void gvProductos_RowEditing(object sender, GridViewEditEventArgs e)
         {
@@ -72,7 +74,19 @@ namespace TP6_Grupo_5
             string nombreProducto = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_nombreProducto")).Text;
             string cantidadPorUnidad = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_cantidadPorUnidad")).Text;
             string precioUnitario = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("Txt_eit_precioUnidad")).Text;
+            if (string.IsNullOrWhiteSpace(nombreProducto) || string.IsNullOrWhiteSpace(cantidadPorUnidad) || string.IsNullOrWhiteSpace(precioUnitario))
+            {
+                lblMensajeNuevo.ForeColor = System.Drawing.Color.Red;
+                lblMensajeNuevo.Text = "Todos los campos son obligatorios.";
+                return;
+            }
 
+            if (!decimal.TryParse(precioUnitario.Replace(',', '.'), out decimal precioDecimal) || precioDecimal < 0)
+            {
+                lblMensajeNuevo.ForeColor = System.Drawing.Color.Red;
+                lblMensajeNuevo.Text = "El precio debe ser un número válido y positivo.";
+                return;
+            }
             // CAMBIAR EL PRECIO CAMBIANDO LA COMA POR PUNTO
             string precioUnitarioFormateado = precioUnitario.Replace(',', '.');
 
@@ -88,6 +102,8 @@ namespace TP6_Grupo_5
 
             gvProductos.EditIndex = -1;
             CargarGridView();
+            lblMensajeNuevo.ForeColor = System.Drawing.Color.Green;
+            lblMensajeNuevo.Text = "Producto actualizado correctamente.";
         }
 
         // PAGINACION

@@ -22,6 +22,22 @@
         .auto-style10 {
             width: 9%;
         }
+        .auto-style11 {
+            width: 232px;
+            height: 23px;
+        }
+        .auto-style12 {
+            width: 52%;
+            height: 23px;
+        }
+        .auto-style13 {
+            width: 9%;
+            height: 23px;
+        }
+        .auto-style14 {
+            width: 2%;
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -49,16 +65,18 @@
                         <SortedDescendingCellStyle BackColor="#D6DFDF" />
                         <SortedDescendingHeaderStyle BackColor="#002876" />
                     </asp:GridView>
+                    <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style9">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style11"></td>
+                <td class="auto-style12">
+                    &nbsp;</td>
+                <td class="auto-style13"></td>
+                <td class="auto-style14"></td>
+                <td class="auto-style14"></td>
+                <td class="auto-style14"></td>
+                <td class="auto-style14"></td>
             </tr>
             <tr>
                 <td class="auto-style8">

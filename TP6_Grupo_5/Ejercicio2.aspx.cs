@@ -16,7 +16,11 @@ namespace TP6_Grupo_5
 
         protected void lbEliminarSeleccionados_Click(object sender, EventArgs e)
         {
-            
+            // Elimina los productos seleccionados almacenados en la variable Session
+            Session.Remove("dtSeleccionados");
+
+            // Mensaje opcional
+         Response.Write("<script>alert('Productos eliminados de la sesión');</script>");
         }
     }
 }

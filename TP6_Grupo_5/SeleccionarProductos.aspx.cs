@@ -68,6 +68,10 @@ namespace TP6_Grupo_5
                     dtSeleccionados.Rows.Add(nuevaFila);
                     Session["dtSeleccionados"] = dtSeleccionados;
                 }
+                else
+                {
+                    lblMensaje.Text = "Este producto ya fue seleccionado anteriormente.";
+                }
             }
         }
 

@@ -10,6 +10,9 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style2 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -55,7 +58,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4">
+                    <asp:GridView ID="gvMostrarSeleccionados" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" AllowPaging="True" OnPageIndexChanging="gvMostrarSeleccionados_PageIndexChanging">
                         <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                         <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
                         <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
@@ -78,16 +81,16 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
+                <td class="auto-style2"></td>
             </tr>
             <tr>
                 <td>&nbsp;</td>

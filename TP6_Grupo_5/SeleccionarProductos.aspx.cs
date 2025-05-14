@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using TP6_Grupo_5.Conexion;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace TP6_Grupo_5
 {
@@ -15,7 +17,7 @@ namespace TP6_Grupo_5
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page.IsPostBack == false)
+            if (!IsPostBack)
             {
                 CargarGridView();
             }
@@ -33,6 +35,58 @@ namespace TP6_Grupo_5
         {
             GVProductos.PageIndex = e.NewPageIndex;
             CargarGridView();
+        }
+
+        protected void GVProductos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (GVProductos.SelectedRow != null)
+            {
+                string idProducto = GVProductos.SelectedRow.Cells[1].Text;
+                string nombreProducto = GVProductos.SelectedRow.Cells[2].Text;
+                string CantidaPorUnidad = GVProductos.SelectedRow.Cells[3].Text;
+                string precioUnidad = GVProductos.SelectedRow.Cells[4].Text;
+
+                LblProductoSeleccionado.Text = "Producto agregado: " + nombreProducto;
+
+                DataTable dtSeleccionados = (DataTable)Session["dtSeleccionados"];
+
+                if (dtSeleccionados == null)
+                {
+                    dtSeleccionados = new DataTable();
+                    dtSeleccionados.Columns.Add("idProducto");
+                    dtSeleccionados.Columns.Add("nombreProducto");
+                    dtSeleccionados.Columns.Add("cantidadPorUnidad");
+                    dtSeleccionados.Columns.Add("precioUnidad");
+                }
+
+                if (!yaExisteSeleccionados(idProducto, dtSeleccionados))
+                {
+                    lblMensaje.Text = "";
+                    DataRow nuevaFila = dtSeleccionados.NewRow();
+                    nuevaFila["idProducto"] = idProducto;
+                    nuevaFila["nombreProducto"] = nombreProducto;
+                    nuevaFila["cantidadPorUnidad"] = CantidaPorUnidad;
+                    nuevaFila["precioUnidad"] = precioUnidad;
+
+                    dtSeleccionados.Rows.Add(nuevaFila);
+                    Session["dtSeleccionados"] = dtSeleccionados;
+                }
+                else
+                {
+                    lblMensaje.Text = "Este producto ya fue seleccionado anteriormente.";
+                }
+            }
+        }
+
+        private bool yaExisteSeleccionados(string idProducto, DataTable dtSeleccionados)
+        {
+            if (dtSeleccionados == null) return false;
+
+            foreach (DataRow row in dtSeleccionados.Rows)
+            {
+                if (row["idProducto"].ToString() == idProducto) return true;
+            }
+            return false;
         }
     }
 }

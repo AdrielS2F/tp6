@@ -20,7 +20,7 @@
             width: 143px;
         }
         .auto-style6 {
-            width: 126px;
+            width: 193px;
         }
     </style>
 </head>
@@ -108,8 +108,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style6">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style6">
+                        &nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:Label ID="lblMensajeNuevo" runat="server" Font-Bold="True"></asp:Label>
+                    </td>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style3">&nbsp;</td>
                     <td>&nbsp;</td>

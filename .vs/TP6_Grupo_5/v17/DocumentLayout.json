@@ -1,42 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\tp6\\",
+  "WorkspaceRootPath": "C:\\Users\\sonic\\Desktop\\github\\tp6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\user\\source\\repos\\tp6\\tp6_grupo_5\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\sonic\\desktop\\github\\tp6\\tp6_grupo_5\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\user\\source\\repos\\tp6\\tp6_grupo_5\\mostrarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\sonic\\desktop\\github\\tp6\\tp6_grupo_5\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|c:\\users\\sonic\\desktop\\github\\tp6\\tp6_grupo_5\\mostrarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\mostrarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\sonic\\Desktop\\github\\tp6\\tp6_grupo_5\\seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\conexion\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\sonic\\Desktop\\github\\tp6\\tp6_grupo_5\\mostrarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\mostrarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\seleccionarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\seleccionarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\conexion\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\conexion\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\USER\\source\\repos\\tp6\\tp6_grupo_5\\conexion\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\conexion\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|C:\\Users\\sonic\\Desktop\\github\\tp6\\tp6_grupo_5\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7920D8E9-CC2C-46AE-9D1E-EDC0EB4A7C71}|TP6_Grupo_5\\TP6_Grupo_5.csproj|solutionrelative:tp6_grupo_5\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +34,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -60,117 +52,77 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Ejercicio1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx.cs",
               "RelativeDocumentMoniker": "TP6_Grupo_5\\Ejercicio1.aspx.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx.cs",
+              "ToolTip": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx.cs",
               "RelativeToolTip": "TP6_Grupo_5\\Ejercicio1.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T01:55:37.264Z",
+              "WhenOpened": "2025-05-11T23:01:53.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MostrarProductos.aspx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\MostrarProductos.aspx",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\MostrarProductos.aspx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\MostrarProductos.aspx",
-              "RelativeToolTip": "TP6_Grupo_5\\MostrarProductos.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Title": "Ejercicio1.aspx",
+              "DocumentMoniker": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx",
+              "RelativeDocumentMoniker": "TP6_Grupo_5\\Ejercicio1.aspx",
+              "ToolTip": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\Ejercicio1.aspx",
+              "RelativeToolTip": "TP6_Grupo_5\\Ejercicio1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-10T20:37:57.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SeleccionarProductos.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\SeleccionarProductos.aspx.cs",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\SeleccionarProductos.aspx.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\SeleccionarProductos.aspx.cs",
-              "RelativeToolTip": "TP6_Grupo_5\\SeleccionarProductos.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:34:07.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SeleccionarProductos.aspx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\SeleccionarProductos.aspx",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\SeleccionarProductos.aspx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\SeleccionarProductos.aspx",
-              "RelativeToolTip": "TP6_Grupo_5\\SeleccionarProductos.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-10T14:29:40.173Z",
+              "WhenOpened": "2025-05-11T23:01:49.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Ejercicio2.aspx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio2.aspx",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\Ejercicio2.aspx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio2.aspx",
-              "RelativeToolTip": "TP6_Grupo_5\\Ejercicio2.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Title": "Inicio.aspx",
+              "DocumentMoniker": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\Inicio.aspx",
+              "RelativeDocumentMoniker": "TP6_Grupo_5\\Inicio.aspx",
+              "ToolTip": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\Inicio.aspx",
+              "RelativeToolTip": "TP6_Grupo_5\\Inicio.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-05T19:09:01.519Z",
+              "WhenOpened": "2025-05-11T22:52:25.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Ejercicio2.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio2.aspx.cs",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\Ejercicio2.aspx.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Ejercicio2.aspx.cs",
-              "RelativeToolTip": "TP6_Grupo_5\\Ejercicio2.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MostrarProductos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\MostrarProductos.aspx.cs",
+              "RelativeDocumentMoniker": "TP6_Grupo_5\\MostrarProductos.aspx.cs",
+              "ToolTip": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\MostrarProductos.aspx.cs",
+              "RelativeToolTip": "TP6_Grupo_5\\MostrarProductos.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:52:13.27Z",
+              "WhenOpened": "2025-05-11T21:47:15.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
-              "RelativeToolTip": "TP6_Grupo_5\\Conexion\\AccesoDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Title": "SeleccionarProductos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\SeleccionarProductos.aspx.cs",
+              "RelativeDocumentMoniker": "TP6_Grupo_5\\SeleccionarProductos.aspx.cs",
+              "ToolTip": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\SeleccionarProductos.aspx.cs",
+              "RelativeToolTip": "TP6_Grupo_5\\SeleccionarProductos.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T17:34:48.838Z",
+              "WhenOpened": "2025-05-11T19:06:20.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GestionProductos.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\GestionProductos.cs",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\Conexion\\GestionProductos.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\GestionProductos.cs",
-              "RelativeToolTip": "TP6_Grupo_5\\Conexion\\GestionProductos.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA6wCAAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T17:24:43.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\Producto.cs",
-              "RelativeDocumentMoniker": "TP6_Grupo_5\\Conexion\\Producto.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\tp6\\TP6_Grupo_5\\Conexion\\Producto.cs",
-              "RelativeToolTip": "TP6_Grupo_5\\Conexion\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:35:08.854Z",
+              "DocumentIndex": 2,
+              "Title": "MostrarProductos.aspx",
+              "DocumentMoniker": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\MostrarProductos.aspx",
+              "RelativeDocumentMoniker": "TP6_Grupo_5\\MostrarProductos.aspx",
+              "ToolTip": "C:\\Users\\sonic\\Desktop\\github\\tp6\\TP6_Grupo_5\\MostrarProductos.aspx",
+              "RelativeToolTip": "TP6_Grupo_5\\MostrarProductos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-11T21:14:51.598Z",
               "EditorCaption": ""
             }
           ]
